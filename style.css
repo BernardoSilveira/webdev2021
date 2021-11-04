@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 60%;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    padding: 1%;
+    font-size: larger;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+.competition-title{
+    text-align: center;
+}
+aside{
+    max-width: 20%;
+    margin-left: 30px;
+    color: black;
+    background-color: yellowgreen;
+    height: 50px;
+}
+section{
+    margin-bottom: 100px;
+}
+article{
+    max-width: 60%;
+    margin-left: 6%;
+}
+header{
+    margin: 20px 20px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+}
+.author-icon{
+    max-width: 10%;
+}
+.author-name{
+    vertical-align: top;
+    margin-left: 2px;
+}
+.date-span{
+    text-align: end;
+}
+#team-pos{
+    margin-top: 20px;
+    margin-right: 60px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    float: right;
+}
+.table-competition-title{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.result{
+    text-align: center;
+}
+.home{
+    text-align: left;
+}
+.away{
+    text-align: end;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#title{
+
+}
+
+.continents{
+    padding: 10px;
+}
+
+.continents .name{
+    color: darkred;
+}
+
+.competitions{
+
+}
+
+.author{
+    font-weight: bold;
+}
+.date{
+    font-style: italic;
+}
