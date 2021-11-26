@@ -1,0 +1,204 @@
+body {
+    font-family: 'Noto Serif Display', serif;
+
+}
+
+main {
+    padding-top: 22%;
+    margin-bottom: 3%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.nav_top_links {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 3%;
+}
+
+.Menu {
+    padding: 3% 0;
+    background: white;
+    width: 100%;
+    color: #f1f1f1;
+    position: fixed;
+}
+
+h1{
+    text-align: center;
+}
+h1.Logo_website {
+    font-size: 70px;
+    
+}
+
+
+
+
+input {
+    display: block;
+    margin: 2% auto;
+    size: 50px;
+}
+
+.emailInput {
+    color: #666666;
+}
+
+button {
+    display: block;
+    margin: 2% auto;
+}
+
+
+#search_button {
+    margin: 0 auto;
+    background-color: white;
+    color: #444444;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+#search_button:hover {
+    background-color: #777777;
+}
+
+#search_block{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.nav_interruptor {
+    width: 30px;
+    padding: 10px 0;
+    display: none;
+
+    font-size: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    z-index: 1;
+
+    font-size: 30px;
+    color: #000000;
+}
+
+.X_button {
+    display: none;
+}
+
+
+
+@media (max-width: 800px) {
+
+    .nav_interruptor {
+        display: block;
+    }
+
+    .nav {
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        margin: 0;
+    }
+
+    .nav_top_links {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .nav_top_links a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #f1f1f1;
+        display: block;
+        transition: 0.3s;
+        margin-bottom: 5px;
+    }
+
+    .X_button {
+        position: absolute;
+        display: block;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+        color: #f1f1f1;
+    }
+
+    .burger div:before {
+        border-bottom: 1px solid black;
+    }
+
+    .burger div:after {
+        border-bottom: 1px solid black;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        padding-top: 10%;
+    }
+
+    .Menu {
+        padding: 0;
+        padding-top: 2%;
+    }
+
+    .nav_top_links a {
+        font-size: 28px;
+        margin: 0% 7%;
+    }
+
+    article {
+        margin: 4% 0;
+    }
+
+    .articlePhoto {
+        width: 50%;
+    }
+
+    p.articlePreviewText {
+        max-width: 50%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    #search_block {
+        margin-top: 0;
+    }
+}
+
+
