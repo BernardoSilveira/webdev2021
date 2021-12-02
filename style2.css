@@ -10,6 +10,13 @@ body {
 header{
     min-height:70px;
     background-color: seagreen;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.website-title {
+    text-align: center;
 }
 
 a {

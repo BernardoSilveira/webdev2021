@@ -22,22 +22,29 @@
 </head>
 
 <body>
-<header>
-        <h1 class="Logo_website"><a href="../index.html"><img id="ball-logo" src="../images/ball_logo.jpg" alt="Football_ball_logo"></a></h1>
+    <header>
+        <div class="website-title">
+            <h2>Football News</h2>
+        </div>
+        <h1 class="Logo_website">
+            <a href="index.html">
+                <img id="ball-logo" src="images/ball_logo.jpg" width="224" height="225" alt="Football_ball_logo">
+            </a>
+        </h1>
         <nav id="nav_top" class="nav">
             <div class="nav_top_links">
                 <a href="category_champions_league.html">Champions League</a>
                 <a href="category_eurocup.html">EuroCup</a>
                 <a href="category_libertadores.html">Libertadores</a>
-                <a href="category_sulamericana.html">Sudamericana</a>
+                <a href="../html/category_sulamericana.html">Sudamericana</a>
                 <div id="search_block">
-                    <input class="search_box" value="Looking for..." size="20">
-                    <a href="../html/search_default.html">
-                        <button id="search_button" href="../html/search_default.html">Looking for...</button>
+                    <input class="search_box" size="20" value="Looking for...">
+                    <a href="search_default.html">
+                        <button href="../html/search_default.html" id="search_button">Looking for...</button>
                     </a>
                 </div>
             </div>
-            <a href="javascript:void(0)" class="X_button" onclick="closeNav()">Close</a>
+            <a class="X_button" href="javascript:void(0)" onclick="closeNav()">Close</a>
 
         </nav>
         <button class="nav_interruptor" id="nav_on_off" type="button" onclick="openNav()">
