@@ -200,9 +200,9 @@ button {
 }
 
 @media (min-width: 800px) {
-    main {
-        padding-top: 10%;
-    }
+    /*main {*/
+    /*    padding-top: 10%;*/
+    /*}*/
 
     .Menu {
         padding: 0;
