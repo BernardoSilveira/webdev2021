@@ -1,6 +1,8 @@
 body {
     font-family: 'Noto Serif Display', serif;
     height:100vh; margin:0;
+}
+.container {
     display:flex;
     flex-direction:column;
 }
@@ -43,6 +45,9 @@ footer {
     min-height:50px;
     margin-top:auto;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 h1{
@@ -218,5 +223,9 @@ button {
 
     #search_block {
         margin-top: 0;
+    }
+
+    #ball-logo {
+        margin-top: 150px;
     }
 }
