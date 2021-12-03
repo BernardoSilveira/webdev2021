@@ -50,9 +50,19 @@ a:visited {
 .main-footer {
     background-color: seagreen;
     min-height:50px;
-    margin-top:auto;
+    /*margin-top:auto;*/
     text-align: center;
-    position: fixed;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.article-footer {
+    background-color: seagreen;
+    min-height:50px;
+    /*margin-top:auto;*/
+    text-align: center;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -196,6 +206,9 @@ button {
 
     #ball-logo {
         margin-top: 90px;
+    }
+    img {
+        max-width: 100%;
     }
 }
 
