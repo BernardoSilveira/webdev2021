@@ -1,3 +1,7 @@
+:root {
+    --main-color: seagreen;
+}
+
 body {
     font-family: 'Noto Serif Display', serif;
     height:100vh; margin:0;
@@ -9,7 +13,7 @@ body {
 
 header{
     min-height:70px;
-    background-color: seagreen;
+    background-color: var(--main-color);
     /*position: sticky;*/
     top: 0;
     width: 100%;
@@ -28,7 +32,7 @@ a:visited {
 }
 
 .nav_top_links{
-    background-color: seagreen;
+    background-color: var(--main-color);
     overflow: hidden;
     position: sticky;
 }
@@ -48,7 +52,7 @@ a:visited {
 }
 
 .main-footer {
-    background-color: seagreen;
+    background-color: var(--main-color);
     min-height:50px;
     /*margin-top:auto;*/
     text-align: center;
@@ -58,7 +62,7 @@ a:visited {
 }
 
 .article-footer {
-    background-color: seagreen;
+    background-color: var(--main-color);
     min-height:50px;
     /*margin-top:auto;*/
     text-align: center;
@@ -212,7 +216,7 @@ button {
     }
 
     .article-footer {
-        background-color: seagreen;
+        background-color: var(--main-color);
         min-height:50px;
         /*margin-top:auto;*/
         text-align: center;
